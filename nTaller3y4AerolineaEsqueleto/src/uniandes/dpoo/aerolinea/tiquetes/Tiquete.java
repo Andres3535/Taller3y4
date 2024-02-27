@@ -9,10 +9,9 @@ public class Tiquete {
 	private boolean usado;
 	private Vuelo vuelo;
 	private Cliente cliente;
-	public Tiquete(String codigo, int tarifa, boolean usado, Vuelo vuelo, Cliente cliente) {
+	public Tiquete(String codigo, Vuelo vuelo, Cliente cliente, int tarifa) {
 		this.codigo = codigo;
 		this.tarifa = tarifa;
-		this.usado = usado;
 		this.vuelo = vuelo;
 		this.cliente = cliente;
 	}

@@ -19,6 +19,62 @@ public class Ruta
 		this.destino = destino;
 		this.origen = origen;
 	}
+    
+    
+    
+    
+    
+    
+
+	public String getHoraSaida() {
+		return horaSaida;
+	}
+
+
+
+
+
+
+
+	public String getHoraLLegada() {
+		return horaLLegada;
+	}
+
+
+
+
+
+
+
+	public String getCodigoRuta() {
+		return codigoRuta;
+	}
+
+
+
+
+
+
+
+	public String getDestino() {
+		return destino;
+	}
+
+
+
+
+
+
+
+	public String getOrigen() {
+		return origen;
+	}
+
+
+
+
+
+
 
 	/**
      * Dada una cadena con una hora y minutos, retorna los minutos.
